@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2016/08/03/09/04/universe-1566161_640.jpg'); /* استبدل هذا الرابط برابط صورة تعبر عن الأمن السيبراني */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            font-size: 20px;
+            color: white; /* تغيير لون النص ليكون أكثر وضوحاً على الخلفية */
+        }
+        h1 {
+            color: #00ff00; /* لون أخضر يعبر عن الأمن السيبراني */
+        }
+        .cv-section {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة للمعلومات */
+            border-radius: 10px;
+            width: 80%;
+            text-align: left;
+        }
+        .cv-section h2 {
+            color: #00ff00;
+        }
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #033127;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+            transform: scale(1.1); /* تكبير الزر عند التمرير فوقه */
+        }
+        .profile-pic {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 175px; /* عرض الصورة */
+            height: 175px; /* ارتفاع الصورة */
+            border-radius: 50%; /* جعل الصورة دائرية */
+            border: 3px solid #033127; /* إضافة إطار للصورة */
+        }
+    </style>
+</head>
+<body>
+    <h1>My CV</h1>
+    <img src="c:\Users\Matriex\Desktop\cv\6d9fcc10-b859-40ea-b39b-1c5f8faa1a9b.jpg" alt="Profile Picture" class="profile-pic"> <!-- استبدل هذا الرابط برابط صورتك -->
+    <div class="cv-section">
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> Mahmoud Ayman Noureddine</p>
+        <p><strong>Age:</strong> 23</p>
+        <p><strong>Address:</strong> Markaz Meet Ghamr, Ad Daqahliyah, Egypt</p>
+        <p><strong>Email:</strong> aymannoormemo@gmail.com</p>
+        <p><strong>Phone:</strong> +20 1122982076</p>
+    </div>
+    <div class="cv-section">
+        <h2>Education</h2>
+        <p><strong>Delta Higher Institute</strong></p>
+        <p>Bachelor's Degree in Communication Engineering , Expected Graduation : 2026</p>
+    </div>
+    <div class="cv-section">
+        <h2>Work Experience</h2>
+        <p><strong>Information Security Engineer , Incident Researcher Specialisation </strong></p>
+        <p>June 2022 - Present</p>
+        <ul>
+            <li>Internship At Microsoft From Sertember 2022 To May 2023.</li>
+            <li>Work For IT Plus company From Aug 2023 To Apr 2024.</li>
+            <li>Internship At ISKRAEMECO Company For Elswedy Group.</li>
+            <li>Worked with HTML , Python , SQL , and other Security technologies.</li>
+            <li>Work For Some Freelanc Work Sites .</li>
+            <li>Collaborated With Security Specialists And Other Developers To Protect Some Sites.</li>
+        </ul>
+    </div>
+    <div class="cv-section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML , Python , SQL. </li>
+            <li>Mastery Of Operating System (Windows , Linux). </li>
+            <li>Malware Analysis. </li>
+            <li>Network Administrator</li>
+            <li>Speaking Englisg. </li>
+            <li>Working In Group Workshops.</li>
+            <li>Presenting Ideas And Topics.</li>
+        </ul>
+    </div>
+    <div class="cv-section">
+        <h2>Certifications</h2>
+        <ul>
+        <li><strong>CCNA From Cisco.</strong></li>
+        <li><strong>Comptia Network+.</strong></li>
+        <li><strong>Comptia Security+.</strong></li>
+        <li><strong>CEH & OSCP.</strong></li>
+        <li><strong>CCNA Cyber Ops .</strong></li>
+        </ul>
+    </div>
+    <div class="cv-section">
+        <h2>Activities</h2>
+        <ul>
+            <li>Coding.</li>
+            <li>Exploring new technologies.</li>
+            <li>Cryptography.</li>
+        </ul>
+    </div>
+    <div class="cv-section">
+        <h2>Other Information</h2>
+        <ul>
+        <li>Passionate About Cybersecurity And Networks.</li>
+        <li>Passionate About Write Researchs.</li>
+        </ul>
+    </div>
+    <button class="back-button" onclick="window.location.href='home.html'">Back to Home</button>
+</body>
+</html>
